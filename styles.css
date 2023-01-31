@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+@font-face {
+  font-family: CursedUil;
+  src: url(CursedTimerULiL.ttf);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 575px;
+  height: 385px;
+  background-color: #1b244a;
+  color: white;
+  font-family: Verdana, sans-serif;
+}
+.screen {
+  width: 155px;
+  height: 120px;
+  background-color: #080001;
+  margin-top: 2%;
+}
