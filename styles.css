@@ -24,6 +24,7 @@ body {
   background-color: #1b244a;
   color: white;
   font-family: Verdana, sans-serif;
+  flex-wrap: wrap;
 }
 .screen {
   width: 155px;
@@ -32,10 +33,10 @@ body {
   margin-top: 20px;
   font-family: CursedUil;
   color: #f94f6d;
-  font-size: 90px;
+  font-size: 80px;
 }
 p {
-  padding-top: 15px;
+  padding-top: 20px;
 }
 button {
   background-color: #1b244a;
@@ -49,4 +50,12 @@ button {
 .btn {
   display: flex;
   justify-content: space-between;
+}
+
+.resetbtn {
+  flex-basis: 100%;
+}
+#reset {
+  width: 100px;
+  padding-top: 0;
 }
